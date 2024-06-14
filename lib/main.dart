@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: DesignliColors.magent),
+        iconTheme: const IconThemeData(color: Colors.white),
         useMaterial3: true,
       ),
       home: LoginInjection.injection(),

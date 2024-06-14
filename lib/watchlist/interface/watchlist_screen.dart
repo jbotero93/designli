@@ -21,6 +21,7 @@ class _WatchlistScreenState extends State<WatchlistScreen> {
     return Scaffold(
       backgroundColor: DesignliColors.blueBackground,
       appBar: AppBar(
+        iconTheme: const IconThemeData(color: Colors.white),
         backgroundColor: DesignliColors.blueBackground,
         title: Text(
           'Designli Trader',
