@@ -5,13 +5,13 @@ import 'package:get/get.dart';
 
 class LoginProvider with ChangeNotifier {
   final isLoading = ValueNotifier<bool>(false);
-  final appScheme = 'stafflion';
+  final appScheme = 'designli';
 
   late Auth0 auth0;
 
   Future<void> setupAuth0() async {
-    auth0 =
-        Auth0('autumntrack.us.auth0.com', '23QT9Nj9KxHnl90eyMj2gsBrE4Uyf2hi');
+    auth0 = Auth0('dev-hnbc1f5dyxsbj3io.us.auth0.com',
+        'xUfrehF7Zd9suNDXCRzOWM9n3bZ1RsbK');
   }
 
   Future<Credentials?> loginAction() async {
